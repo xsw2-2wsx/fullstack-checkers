@@ -1,0 +1,14 @@
+@import "bootstrap/scss/bootstrap";
+
+* {
+    box-sizing: border-box;
+}
+
+#root, body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: var(--bs-gray-dark)
+}

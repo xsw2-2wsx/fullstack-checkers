@@ -1,0 +1,6 @@
+.board {
+    width: min(70vh, 70vw);
+    height: min(70vh, 70vw);
+    display: flex;
+    flex-flow: row wrap;
+}

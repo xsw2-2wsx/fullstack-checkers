@@ -1,0 +1,44 @@
+.selected {
+   img {
+        width: 90% !important;
+        height: 90% !important;
+    }
+
+    border: 2px solid var(--bs-primary)
+}
+
+.tile {
+    width: 12.5%;
+    height: 12.5%;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 80%;
+        height: 80%;
+    }
+
+    &:hover {
+        img {
+            width: 90%;
+            height: 90%;
+        }
+
+        border: 2px solid orange;
+    }
+
+}
+
+
+.tile-white {
+    @extend .tile;
+    background-color: var(--bs-light);
+}
+
+.tile-black {
+    @extend .tile;
+    background-color: var(--bs-teal);
+}
+

@@ -1,0 +1,21 @@
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.board-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 100;
+}
+
+.sidebar-container {
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+
+.rcw-widget-container {
+    left: 0;
+}

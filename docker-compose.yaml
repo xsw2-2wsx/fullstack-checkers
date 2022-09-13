@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  backend:
+    build:
+      context: ./backend
+    networks:
+      - checkers
+
+  frontend:
+    build:
+      context: ./frontend
+    networks:
+      - checkers
+
+networks:
+  checkers:
+    driver: "bridge"
